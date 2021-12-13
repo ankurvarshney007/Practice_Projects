@@ -1,0 +1,6 @@
+Projects/.metadata/
+*.class
+*.classpath
+*.vs
+*.project
+*.settings

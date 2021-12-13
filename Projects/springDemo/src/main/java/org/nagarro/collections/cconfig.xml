@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<!-- this is bean -->
+	<bean class="org.nagarro.collections.Emp" name="Emp1">
+		<property name="name" value="shrishti" />
+		<property name="phones">
+			<list>
+				<value>9999939993</value>
+				<value>87848929474</value>
+				<value>8489992992</value>
+			</list>
+
+		</property>
+		<property name="address">
+			<set>
+				<value>Delhi</value>
+				<value>Lucknow</value>
+				<value>Mumbai</value>
+			</set>
+
+		</property>
+		<property name="course">
+		<map>
+			<entry key="Python" value="2Month" />
+			<entry key="Cpp" value="3month" />
+		</map>
+		</property>
+</bean>
+</beans>

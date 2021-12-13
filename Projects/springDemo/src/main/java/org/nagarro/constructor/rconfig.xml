@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<!-- this is bean -->
+	<bean class = "org.nagarro.constructor.Person" name = "person">
+	<constructor-arg value = "shrshtu" index ="0"/>
+	<constructor-arg value ="45" type ="int" index ="1"/>
+	
+	</bean>
+</beans>
